@@ -51,7 +51,7 @@ h2 {
   letter-spacing: 0.3px;
   text-align: left;
   color: #ffa500;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 20px 0px 20px;
 }
 
 img {
@@ -140,8 +140,7 @@ img {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  padding: 0px 20px 20px 20px;
 }
 
 .logo {
@@ -157,6 +156,13 @@ img {
   margin: auto;
 }
 
-footer {
+footer div {
   margin-top: 44px;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px
+  color: rgba(255, 0, 0, 0.5);
 }
