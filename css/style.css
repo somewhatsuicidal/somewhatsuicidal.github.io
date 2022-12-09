@@ -11,14 +11,14 @@ body {
 /* Removed min-width because some phones are narrower than 500px */
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #4A3065;
   text-align: left;
 /* min-width: 500px; */
 }
 
 /* Changed header color and default font, set height to full screen height, set display to felx in order to easily center contents. (We could also use grid, but I went with flex since we only have a single column.) Also set the font-family to Work Sane. Rememeber, the cascade in "Cascading Style Sheets" means that these font settings will flow down into everything inside the wrapper unless we override it--which we do with h1 */
 header {
-  font-family: Work Sans;
+  font-family: Tacoma;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@ main {
 
 /* Added h1 definition. Notice the font size calculation. This calc sets the font seize at AT LEAST 1.93em, then adds 2% of the view width per character (approx.) */
 h1 {
-  font-family: Poppins;
+  font-family: Segoe UI;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -45,12 +45,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: American Captain;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #008080;
   padding: 10px 20px 0px 20px;
 }
 
@@ -122,7 +122,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: Ariel;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -133,7 +133,7 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: Comic Sans;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
